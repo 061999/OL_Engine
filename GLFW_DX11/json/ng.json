@@ -1,0 +1,18 @@
+{
+	"name":"Ning_Guang",
+	"path":"res/ng/ng.pmx",
+	"diffuse":[
+		"res/ng/f.png",
+		"res/ng/h.png",
+		"res/ng/c.png",
+		"res/ng/fs.png"
+	],
+	"id":[0,0,1,1,1,2,2,2,2,2,2,2,2,3],
+	"x":0.0,
+	"y":0.0,
+	"z":5.0,
+	"yaw":0.0,
+	"row":0.0,
+	"pitch":0.0,
+	"scaling":1.0
+}

@@ -1,0 +1,17 @@
+{
+	"name":"Lisha",
+	"path":"res/lisha/ls.pmx",
+	"diffuse":[
+		"res/lisha/h.png",
+		"res/lisha/f.png",
+		"res/lisha/c.png"
+	],
+	"id":[0,1,2,1,0,0,0,2,2,2,2,2,2,2],
+	"x":0.0,
+	"y":0.0,
+	"z":0.0,
+	"yaw":0.0,
+	"row":0.0,
+	"pitch":0.0,
+	"scaling":1.0
+}
