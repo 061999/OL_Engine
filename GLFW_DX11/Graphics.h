@@ -9,6 +9,7 @@ public:
 	void Resize( int width , int height );
 	void Swap();
 	void Clear();
+	void SetRenderTarget();
 private:
 	ComPtr<ID3D11Device> device;
 	ComPtr<ID3D11DeviceContext> context;

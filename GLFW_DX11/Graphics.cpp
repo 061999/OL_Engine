@@ -123,3 +123,8 @@ void Graphics::Clear()
     context->ClearRenderTargetView( RTV.Get() , dx::Colors::Aqua );
     context->ClearDepthStencilView( DSV.Get() , D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL , 1.0f , 0u );
 }
+
+void Graphics::SetRenderTarget()
+{
+    context->OMSetRenderTargets( 1u , RTV.GetAddressOf() , DSV.Get() );
+}

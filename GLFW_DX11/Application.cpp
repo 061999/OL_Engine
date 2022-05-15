@@ -30,15 +30,18 @@ void Application::GO()
 	{
 		Window::EventPoll();
 		camera->Update( time.Delta() );
+		gfx->SetRenderTarget();
 		gfx->Clear();
 
 		//DOFrame
 		//-DOFrame
 
 		modeler->Render();
+
 		imguiLayer->Begin();
 		modeler->Fn_RenderUI();
 		imguiLayer->DrawGraphics();
+		imguiLayer->Render();
 		imguiLayer->End();
 
 		gfx->Swap();

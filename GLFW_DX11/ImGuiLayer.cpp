@@ -21,6 +21,11 @@ void ImGuiLayer::Begin()
 
 }
 
+void ImGuiLayer::Render()
+{
+    ImGui::Render();
+}
+
 void ImGuiLayer::DrawGraphics()
 {
     ImGui::Begin( "Graphics" );
@@ -30,9 +35,8 @@ void ImGuiLayer::DrawGraphics()
 
 void ImGuiLayer::End()
 {
-    ImGui::Render();
     ImGui_ImplDX11_RenderDrawData( ImGui::GetDrawData() );
 
-    //ImGui::UpdatePlatformWindows();
+   // ImGui::UpdatePlatformWindows();
     //ImGui::RenderPlatformWindowsDefault();
 }
